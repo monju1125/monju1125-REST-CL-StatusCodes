@@ -17,6 +17,7 @@ public class JavalinSingleton {
 
         app.get("/client-side-err", ctx -> {
         
+            ctx.status(404);
             //write logic here
             
         });
